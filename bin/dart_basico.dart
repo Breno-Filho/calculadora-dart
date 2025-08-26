@@ -3,9 +3,6 @@ import 'dart:io';
 
 void main(List<String> arguments) {
   print('=== CALCULADORA EM DART ===');
-  print('Digite expressões matemáticas e pressione Enter para calcular');
-  print('Operações suportadas: +, -, *, /');
-  print('Exemplos: 2 + 2, 10 - 3 * 2, 15 / 3 + 4');
   print('Digite "sair" para encerrar\n');
   
   var calc = dart_basico.Calculadora();
