@@ -58,16 +58,16 @@ void main() {
       });
 
       test('Expressões com múltiplas operações', () {
-        expect(calc.avaliarExpressao('2 + 3 * 4'), equals(14)); // 2 + 12 = 14
-        expect(calc.avaliarExpressao('10 - 2 * 3'), equals(4)); // 10 - 6 = 4
-        expect(calc.avaliarExpressao('2 * 3 + 4'), equals(10)); // 6 + 4 = 10
-        expect(calc.avaliarExpressao('20 / 4 + 3'), equals(8)); // 5 + 3 = 8
+        expect(calc.avaliarExpressao('2 + 3 * 4'), equals(14)); 
+        expect(calc.avaliarExpressao('10 - 2 * 3'), equals(4)); 
+        expect(calc.avaliarExpressao('2 * 3 + 4'), equals(10)); 
+        expect(calc.avaliarExpressao('20 / 4 + 3'), equals(8)); 
       });
 
       test('Expressões com precedência de operadores', () {
-        expect(calc.avaliarExpressao('2 + 2 / 2'), equals(3)); // 2 + 1 = 3
-        expect(calc.avaliarExpressao('6 / 2 * 3'), equals(9)); // 3 * 3 = 9
-        expect(calc.avaliarExpressao('1 + 2 * 3 + 4'), equals(11)); // 1 + 6 + 4 = 11
+        expect(calc.avaliarExpressao('2 + 2 / 2'), equals(3)); 
+        expect(calc.avaliarExpressao('6 / 2 * 3'), equals(9)); 
+        expect(calc.avaliarExpressao('1 + 2 * 3 + 4'), equals(11)); 
       });
 
       test('Números decimais', () {
